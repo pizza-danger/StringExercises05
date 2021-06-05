@@ -17,3 +17,4 @@ console.log(`The abbreviation for ${language} is ${firstLetterJava + firstLetter
 
 
 //d) Just for fun, try chaining 3 or more methods together, and then print the result.
+console.log(`${language1.toUpperCase()} ${language1.slice(1,3).repeat(5).toLowerCase()} ${language1.toUpperCase().concat(language2)}`);
