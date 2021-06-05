@@ -6,7 +6,7 @@ console.log((language1.slice(0,1)).concat(language2.slice(0,1)));
 
 //b) Without using .slice(), use method chaining to accomplish the same thing.
 
-
+console.log((language1.charAt(0)).concat(language2.charAt(0)));
 
 //c) Use bracket notation and a template literal to print "The abbreviation for 'JavaScript' is 'JS'."
 
